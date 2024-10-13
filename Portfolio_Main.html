@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
@@ -17,6 +17,21 @@
         @font-face {
             font-family: Warpen;
             src: url('Resources/Title_fonts/warpen/Warpen.otf');
+        }
+
+        @font-face {
+            font-family: Mandalorian;
+            src: url('Border_text/mandalorian/mandalor.ttf');
+        }
+
+        @font-face {
+            font-family: OpenMSP;
+            src: url('Resources/Text_fonts/OpenMSP/Openmsp.otf');
+        }
+
+        @font-face {
+            font-family: PP Neue Machina;
+            src: url('Resources/Text_fonts/PP_Neue_Machina/PPNeueMachina-Regular.otf');
         }
 
         body {
@@ -40,7 +55,8 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family: Bazinga; background: url('Resources_images/1087509.jpg') 100%;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"
+        style="font-family: Bazinga; background: url('Resources_images/1087509.jpg') 100%;">
         <div class="container">
             <a class="navbar-brand" href="#" style="color: white">Mi Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -67,11 +83,40 @@
         </div>
     </nav>
 
-    <section id="about" class="container mt-5">
+    <div class="container mx-auto">
+        <div class="text-center">
+            <img src="Border_text/pngwing.com.png" style="max-width:30%">
+        </div>
+        <div class="text-center">
+            <img src="Border_text/Text_Tennobet.png" style="max-width:70%">
+        </div>
+        <div class="text-center">
+            <img src="Border_text/pngwing.com.png" style="max-width:30%">
+        </div>
+    </div>
+
+    <section id="about" class="container mt-5" style="border:0.5em groove black">
         <h2 style="text-align:center;font-family: Warpen;">Sobre mí</h2>
-        <p>Hola, soy [Tu Nombre]. He estudiado en [Tu Universidad] y tengo experiencia en [Tus Intereses Personales]. Me
-            apasiona [Tus Pasiones].</p>
+        <div class="container" style="display:inline-flex">
+            <img src="Resources_images/PXL_20240103_102131013_REC.jpg" style="max-width:30%;margin-right:2%;">
+            <p style="font-family: PP Neue Machina;">¡Hola! Soy Victoria, titulada en el CF Superior en Administración de Sistemas Informáticos en Red. Llevo años dando 
+                clases de refuerzo a estudiantes de la ESO y Bacillerato, además de haber estudiado 2 años en Ingeniería de 
+                Telecomunicaciones y otros 2 en Ingeniería Informática. Me apasionan los videojuegos, la lectura, la programación 
+                y la robótica. Me considero una persona con curiosidad por aprender, de mente creativa e inquisitiva.</p>
+        </div>
     </section>
+
+    <div class="container mx-auto">
+        <div class="text-center">
+            <img src="Border_text/pngwing.com.png" style="max-width:30%">
+        </div>
+        <div class="text-center" style="font-family: Mandalorian;font-size: 150%;">
+            <p>Understanding you does not mean that I agree with you</p>
+        </div>
+        <div class="text-center">
+            <img src="Border_text/pngwing.com.png" style="max-width:30%">
+        </div>
+    </div>
 
     <section id="projects" class="container mt-5">
         <h2 style="text-align:center;font-family: Warpen;">Proyectos</h2>
